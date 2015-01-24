@@ -1,0 +1,30 @@
+{
+  "name": "riak-mock",
+  "version": "0.0.1",
+  "description": "A Riak Mock",
+  "main": "lib/Riak.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pocketly/riak-mock.git"
+  },
+  "keywords": [
+    "Riak",
+    "Mock"
+  ],
+  "author": "Kevin Smithson <ksmithson@pocketly.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pocketly/riak-mock/issues"
+  },
+  "homepage": "https://github.com/pocketly/riak-mock",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.6.1"
+  }
+}
